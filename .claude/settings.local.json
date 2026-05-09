@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"d:\\\\NOC!\\\\Desktop\\\\Meeting TOP\\\\Ceasor Project\\\\Session 2\" -Recurse -File | Select-Object FullName, @{Name='Type'; Expression={[System.IO.Path]::GetExtension\\($_\\)}} | Sort-Object FullName | Format-Table -AutoSize)",
+      "Bash(\"C:/Users/NOC 1/AppData/Local/Programs/Python/Python313/python.exe\" -m pip install matplotlib --quiet)",
+      "Bash(\"C:/Users/NOC 1/AppData/Local/Programs/Python/Python313/python.exe\" -c \"import matplotlib; import PyQt6; import pandas; import openpyxl; print\\('All imports OK'\\)\")"
+    ]
+  }
+}
